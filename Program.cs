@@ -18,8 +18,8 @@ namespace Lab2_clase1
 
             //Ejercicio 2
             //
-            Console.WriteLine("Ejercicio 2: " + rand.Next(1, 10));
-            Console.WriteLine("Ejercicio 2: " + rand.Next(11, 20));
+            Console.WriteLine("Ejercicio 2: " + rand.Next(1, 10)); //Numero aleatorio entre 1 y 10
+            Console.WriteLine("Ejercicio 2: " + rand.Next(11, 20)); //Numero aleatorio entre 11 y 20
 
             //Ejercicio 3 y 4
             //
