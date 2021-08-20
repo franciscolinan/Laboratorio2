@@ -17,14 +17,18 @@ namespace Lab2_clase2
             this.x = x;
             this.y = y;
         }
-
+        
         public static bool operator == (Posicion posicion1, Posicion posicion2)
         {
+            // Operador para comprar 2 posiciones
+            //
             return posicion1.x == posicion2.x && posicion1.y == posicion2.y;
         }
 
         public static bool operator != (Posicion posicion1, Posicion posicion2)
         {
+            // Operador para comprar 2 posiciones
+            //
             return posicion1.x != posicion2.x || posicion1.y != posicion2.y;
         }
     }
