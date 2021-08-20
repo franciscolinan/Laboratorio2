@@ -187,7 +187,7 @@ namespace Lab2_clase2
             return this.puntos_;
         }
 
-        public Juego(int jugador_x, int jugador_y, int num_enemigos, int num_objectivos)
+        public Juego(int jugador_x, int jugador_y, int num_enemigos, int num_objetivos)
         {
             // Inicializar enemigos
             //
@@ -198,7 +198,7 @@ namespace Lab2_clase2
 
             // Inicializar objetivos
             //
-            for (int i = 0; i < num_objectivos; i++)
+            for (int i = 0; i < num_objetivos; i++)
             {
                 this.AgregarObjetivo(rand_.Next(0, 40), rand_.Next(0, 20));
             }
