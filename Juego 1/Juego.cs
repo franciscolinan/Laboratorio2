@@ -187,8 +187,6 @@ namespace Lab2_clase2
 
         public Juego(int jugador_x, int jugador_y, int num_enemigos, int num_objectivos)
         {
-            Random rand = new Random();
-
             // Inicializar enemigos
             //
             for (int i = 0; i < num_enemigos; i++)
