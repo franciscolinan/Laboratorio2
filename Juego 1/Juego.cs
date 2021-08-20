@@ -7,6 +7,8 @@ using System.Threading;
 
 namespace Lab2_clase2
 {
+    // Clase posición del jugador/enemigo/objetivo
+    //
     class Posicion
     {
         public int x;
